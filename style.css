@@ -44,6 +44,7 @@ a {
     font-family: cursive;
     text-transform: uppercase;
     color: aliceblue;
+    font-size: 1.5em;
     padding: 5px 2em 5px 2em;
     cursor: pointer;
 
@@ -117,8 +118,11 @@ a:hover {
         font-size: 3rem;
         font-weight: 800;
         margin-bottom: 10px;
+        margin-left: 0%;
         border-bottom: 1px solid whitesmoke;
         padding-bottom: 5px;
+        justify-content: center;
+        align-items: center;
     }
 
 
@@ -132,6 +136,7 @@ a:hover {
         list-style: none;
         display: flex;
         justify-content: space-evenly;
+        justify-content: center;
         width: 35em;
         background-color:  rgb(36, 133, 95);
         align-items: center;
@@ -144,6 +149,7 @@ a:hover {
 
     a {
         background-color:  rgb(36, 133, 95);
+        font-size:1.5em ;
     }
 
     .nav-item:hover {
@@ -151,7 +157,7 @@ a:hover {
     }
 
     .images {
-        width: 24em;
+        width: 80%;
         height: 25em;
         margin: 0.5em;
         object-fit: cover;
@@ -161,7 +167,7 @@ a:hover {
     
     .images:hover {
         box-shadow: 0 4px 8px 0 rgb(173, 240, 18), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
-        width: 24.10em;
+        width:81%;
         height: 25.10em;
         
     }
