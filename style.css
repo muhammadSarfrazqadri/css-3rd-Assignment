@@ -100,13 +100,6 @@ a:hover {
 /*  */
 
 
-@media screen and (min-width: 650px) and (max-width: 900px) {
-    * {
-        background-color: rgba(7, 116, 110, 0.26);
-    }
-}
-
-
 
 
 /*  */
@@ -114,7 +107,7 @@ a:hover {
 /*  */
 
 
-@media screen and (max-width: 649px) {
+@media screen and (max-width: 1000px) {
     * {
         background-color: rgba(0, 156, 148, 0.425);
     }
@@ -157,5 +150,19 @@ a:hover {
         background-color: rgba(1, 68, 65, 0.788);
     }
 
-
+    .images {
+        width: 24em;
+        height: 25em;
+        margin: 0.5em;
+        object-fit: cover;
+        border: 1px solid black;
+        border-radius: 10px;
+    }
+    
+    .images:hover {
+        box-shadow: 0 4px 8px 0 rgb(173, 240, 18), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
+        width: 24.10em;
+        height: 25.10em;
+        
+    }
 }
