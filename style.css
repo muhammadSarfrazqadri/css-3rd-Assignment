@@ -1,0 +1,160 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgba(3, 82, 78, 0.397);
+}
+
+
+.logo {
+    background-color: rgb(37, 179, 124);
+    color: aliceblue;
+    margin-left: 10%;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(37, 179, 124);
+    width: 100%;
+}
+
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 35em;
+    background-color: rgb(37, 179, 124);
+    align-items: center;
+}
+
+.nav-item {
+background-color: transparent;
+}
+
+a {
+    background-color: rgb(37, 179, 124);
+    text-decoration: none;
+    border-radius: 50em;
+    font-family: cursive;
+    text-transform: uppercase;
+    color: aliceblue;
+    padding: 5px 2em 5px 2em;
+    cursor: pointer;
+
+}
+
+
+a:hover {
+    background-color: rgba(1, 68, 65, 0.788);
+}
+
+
+
+
+
+
+
+/* NAV COMPLETE */
+/*  */
+/* Image container */
+/*  */
+
+#image-box {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+
+.images {
+    width: 18em;
+    height: 19em;
+    margin: 0.5em;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.images:hover {
+    box-shadow: 0 4px 8px 0 rgb(173, 240, 18), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
+    width: 18.10em;
+    height: 19.10em;
+}
+
+
+/*  */
+/* COMPLETE */
+/*  */
+/* MEDIA QUERI FOR TABLETS */
+/*  */
+
+
+@media screen and (min-width: 650px) and (max-width: 900px) {
+    * {
+        background-color: rgba(7, 116, 110, 0.26);
+    }
+}
+
+
+
+
+/*  */
+/* MEDIA QUERI FOR MOBILES */
+/*  */
+
+
+@media screen and (max-width: 649px) {
+    * {
+        background-color: rgba(0, 156, 148, 0.425);
+    }
+
+    .logo {
+        background-color: rgb(36, 133, 95);
+        font-size: 3rem;
+        font-weight: 800;
+        margin-bottom: 10px;
+        border-bottom: 1px solid whitesmoke;
+        padding-bottom: 5px;
+    }
+
+
+    nav {
+        background-color:  rgb(36, 133, 95);
+        flex-direction: column;
+    }
+
+
+    nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-evenly;
+        width: 35em;
+        background-color:  rgb(36, 133, 95);
+        align-items: center;
+        margin-bottom: 5px;
+    }
+
+    .nav-item {
+        background-color:  transparent;
+    }
+
+    a {
+        background-color:  rgb(36, 133, 95);
+    }
+
+    .nav-item:hover {
+        background-color: rgba(1, 68, 65, 0.788);
+    }
+
+
+}
