@@ -89,6 +89,7 @@ a:hover {
     box-shadow: 0 4px 8px 0 rgb(173, 240, 18), 0 6px 20px 0 rgba(255, 0, 0, 0.19);
     width: 18.10em;
     height: 19.10em;
+    cursor: pointer;
 }
 
 
